@@ -9,7 +9,7 @@ export default function Navbar(){
                 <span class="text-xl font-bold tracking-tighter text-[#E5E2E1] font-manrope">  FortuneBarber</span>
                 <div class="hidden md:flex items-center space-x-8">
                 <a class="font-manrope text-sm tracking-widest  text-[#4A8EFF] border-b-2 border-[#4A8EFF] pb-1" href="#">Home</a>
-                <a class="font-manrope text-sm tracking-widest  text-[#E5E2E1] hover:text-[#ADC7FF] transition-colors" href="#">Services</a>
+                <a class="font-manrope text-sm tracking-widest  text-[#E5E2E1] hover:text-[#ADC7FF] transition-colors" href="#service">Services</a>
                 <a class="font-manrope text-sm tracking-widest  text-[#E5E2E1] hover:text-[#ADC7FF] transition-colors" href="#">Gallery</a>
                 <a class="font-manrope text-sm tracking-widest  text-[#E5E2E1] hover:text-[#ADC7FF] transition-colors" href="#">Contact</a>
                 </div>
