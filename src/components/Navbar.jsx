@@ -6,7 +6,7 @@ export default function Navbar(){
             
             <nav class="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-md dark:bg-[#131313]/70 no-border bg-surface-container-low/50 shadow-none">
                 <div class="flex justify-between items-center px-8 py-4 max-w-full mx-auto">
-                <span class="text-xl font-bold tracking-tighter text-[#E5E2E1] font-manrope">  FortuneBarber</span>
+                <a href="#home"><span class="text-xl font-bold tracking-tighter text-[#E5E2E1] font-manrope">  FortuneBarber</span></a>
                 <div class="hidden md:flex items-center space-x-8">
                 <a class="font-manrope text-sm tracking-widest  text-[#4A8EFF] border-b-2 border-[#4A8EFF] pb-1" href="#">Home</a>
                 <a class="font-manrope text-sm tracking-widest  text-[#E5E2E1] hover:text-[#ADC7FF] transition-colors" href="#service">Services</a>
