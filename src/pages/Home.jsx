@@ -1,7 +1,7 @@
 
 //import WhatsApp from "../components/WhatsApp"
 import Nav from  "../components/Navbar"
-import bgimg from '../assets/bgg.jpeg'
+import bgimg from '../assets/img2.jpg'
 export default function Home (){
     return(
       <main>
