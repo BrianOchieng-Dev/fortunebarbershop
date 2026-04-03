@@ -115,11 +115,8 @@ export default function Home (){
                 <p className="text-on-surface-variant font-body mb-8 leading-relaxed">
                                             Precision fade or classic scissor cut, finished with a straight razor neck shave and styling.
                                         </p>
-                <button className="w-full py-4 bg-surface-container-highest text-on-surface font-manrope font-bold uppercase tracking-widest text-xs rounded-xl hover:bg-primary-container hover:text-on-primary-container transition-all">
-                                            Book Haircut
-                                        </button>
+                <button className="w-full py-4 bg-surface-container-highest text-on-surface font-manrope font-bold uppercase tracking-widest text-xs rounded-xl hover:bg-primary-container hover:text-on-primary-container transition-all">Book Haircut</button>
                 </div>
-
                 <div className="group relative bg-surface-container-high p-8 rounded-xl transition-all duration-500 hover:bg-surface-bright hover:-translate-y-2 border-2 border-primary-container/30">
 
                 <div className="mb-8 overflow-hidden rounded-lg aspect-video">
@@ -130,11 +127,11 @@ export default function Home (){
                 <span className="text-primary-container font-headline font-bold">$85</span>
                 </div>
                 <p className="text-on-surface-variant font-body mb-8 leading-relaxed">
-                                            Signature cut plus beard sculpting, hot towel service, and a revitalizing charcoal facial mask.
-                                        </p>
+                Signature cut plus beard sculpting, hot towel service, and a revitalizing charcoal facial mask.
+                </p>
                 <button className="w-full py-4 bg-primary-container text-on-primary-container font-manrope font-bold uppercase tracking-widest text-xs rounded-xl shadow-[0_4px_15px_rgba(74,142,255,0.2)] hover:scale-[1.02] transition-all">
-                                            Book Experience
-                                        </button>
+                Book Experience
+                </button>
                 </div>
 
                 <div className="group bg-surface-container-low p-8 rounded-xl transition-all duration-500 hover:bg-surface-container-high hover:-translate-y-2 border border-outline-variant/5">
@@ -158,6 +155,7 @@ export default function Home (){
                 </div>
                 </section>
             </section>
+           
       </main>
     )
 }
