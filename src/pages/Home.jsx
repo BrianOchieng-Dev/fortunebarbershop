@@ -156,103 +156,103 @@ export default function Home (){
                 </section>
             </section>
 
-                                <section class="py-32 bg-surface-container-lowest" id="gallery">
-                    <div class="container mx-auto px-8">
-                    <div class="text-center mb-16">
-                    <span class="font-label text-xs uppercase tracking-[0.3em] text-tertiary mb-4 block">Visual Authority</span>
-                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface">The Craftsmanship</h2>
+                                <section className="py-32 bg-surface-container-lowest" id="gallery">
+                    <div className="container mx-auto px-8">
+                    <div className="text-center mb-16">
+                    <span className="font-label text-xs uppercase tracking-[0.3em] text-tertiary mb-4 block">Visual Authority</span>
+                    <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-on-surface">The Craftsmanship</h2>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-[800px]">
-                    <div class="md:col-span-2 md:row-span-2 overflow-hidden rounded-xl relative group">
-                    <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" 
+                    <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-[800px]">
+                    <div className="md:col-span-2 md:row-span-2 overflow-hidden rounded-xl relative group">
+                    <img className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" 
                     data-alt="Portrait of a modern man with a sharp fade and groomed beard in a cinematic studio setting" 
                     src={beard}/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-                    <p class="font-manrope font-bold uppercase tracking-widest text-sm">Signature Mid-Fade</p>
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
+                    <p className="font-manrope font-bold uppercase tracking-widest text-sm">Signature Mid-Fade</p>
                     </div>
                     </div>
-                    <div class="md:col-span-2 overflow-hidden rounded-xl relative group">
-                    <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Barber tools arranged on a leather mat with soft spotlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdWJuxKgqrpaw8tNGljSxT3lBYh2yOVFKc9Hx1EubXc5iUJXzq4YO0KqAU3ZRYEv0LL4ow8SQeOH0ZU9OWwwT9PTFHZEeynOMJ_2JAwdOLjPzgtpfXYYfTqwC6DProF7pbKHGFzzAswshJ97mlBQWoAfNxzwoEqXY7feuMgwEIZHJOwaBddkYLP8Noe2HT81HA3JZxQ98n74SM2bWllucWVPyuRwCTpjM0jAoyXj0fmiTDDBX0PSZ8mugi0jFyh-hgbUL0E5YhhUg"/>
-                    <div class="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
-                    <p class="font-manrope font-bold uppercase tracking-widest text-sm">Professional Grade Tools</p>
+                    <div className="md:col-span-2 overflow-hidden rounded-xl relative group">
+                    <img className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Barber tools arranged on a leather mat with soft spotlighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdWJuxKgqrpaw8tNGljSxT3lBYh2yOVFKc9Hx1EubXc5iUJXzq4YO0KqAU3ZRYEv0LL4ow8SQeOH0ZU9OWwwT9PTFHZEeynOMJ_2JAwdOLjPzgtpfXYYfTqwC6DProF7pbKHGFzzAswshJ97mlBQWoAfNxzwoEqXY7feuMgwEIZHJOwaBddkYLP8Noe2HT81HA3JZxQ98n74SM2bWllucWVPyuRwCTpjM0jAoyXj0fmiTDDBX0PSZ8mugi0jFyh-hgbUL0E5YhhUg"/>
+                    <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-8">
+                    <p className="font-manrope font-bold uppercase tracking-widest text-sm">Professional Grade Tools</p>
                     </div>
                     </div>
-                    <div class="overflow-hidden rounded-xl relative group">
-                    <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Detail shot of a hair clipper cutting through hair with extreme precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL8XL4yhHJZCGJKPgXRbKAlXG_wyNp6GmSwx4_xUgluTGPIQQdR_Wf7qktSGmZ5k6C2CyE_SebruTf8XAdb2OhOzLU18PVT0dgsnbBRrYnjooGtQKR6VhTihytxEjQ0J4xlc9BdascKU4BsQumVDaeBmyaM2mDwWcSr1FcNl3xo6dEMSBSsxnxB_J4feJ3O161_REOtJ04LXvRfhBKEwPkiiAmxsXcwXNNwZ4rU9p-q_NH_aeSKNUT7IoNTIB7E89qAo8mrPbW8sE"/>
+                    <div className="overflow-hidden rounded-xl relative group">
+                    <img className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Detail shot of a hair clipper cutting through hair with extreme precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBL8XL4yhHJZCGJKPgXRbKAlXG_wyNp6GmSwx4_xUgluTGPIQQdR_Wf7qktSGmZ5k6C2CyE_SebruTf8XAdb2OhOzLU18PVT0dgsnbBRrYnjooGtQKR6VhTihytxEjQ0J4xlc9BdascKU4BsQumVDaeBmyaM2mDwWcSr1FcNl3xo6dEMSBSsxnxB_J4feJ3O161_REOtJ04LXvRfhBKEwPkiiAmxsXcwXNNwZ4rU9p-q_NH_aeSKNUT7IoNTIB7E89qAo8mrPbW8sE"/>
                     </div>
-                    <div class="overflow-hidden rounded-xl relative group">
-                    <img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Classic gentleman styling his hair in front of a mirror in a luxurious setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2JOCjUQ90ERJEHKTjs_GYRt7_0V2GAH4iEJ2-mbfXvM3ogmkVR9qdcQ8vsQHU6Z5iBUU3AC0Q3sfHmAeQ9Qt50_Nc0b5q7k4_lAJipOd2g4tmko1No_vam5d3C0cM6o4aHjqiW_96jrwu9gGIhWMWtY_j4MkPkc0D10age09Xqfk9UnkaHyfVxDuc9LTLsz_jgY9mIhTQ9UstOFfqUOBWEf2E51hwoNkK3J6lD403Ui1iJ5pCL1NaRWie_IkS5ynGuYvEUs_-Jeo"/>
+                    <div className="overflow-hidden rounded-xl relative group">
+                    <img className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Classic gentleman styling his hair in front of a mirror in a luxurious setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2JOCjUQ90ERJEHKTjs_GYRt7_0V2GAH4iEJ2-mbfXvM3ogmkVR9qdcQ8vsQHU6Z5iBUU3AC0Q3sfHmAeQ9Qt50_Nc0b5q7k4_lAJipOd2g4tmko1No_vam5d3C0cM6o4aHjqiW_96jrwu9gGIhWMWtY_j4MkPkc0D10age09Xqfk9UnkaHyfVxDuc9LTLsz_jgY9mIhTQ9UstOFfqUOBWEf2E51hwoNkK3J6lD403Ui1iJ5pCL1NaRWie_IkS5ynGuYvEUs_-Jeo"/>
                     </div>
                     </div>
                     </div>
                     </section>
 
 
-                    <section class="py-32 bg-surface">
-<div class="container mx-auto px-8">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                    <section className="py-32 bg-surface">
+<div className="container mx-auto px-8">
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
 <div>
-<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface mb-8">Demanded by the <span class="text-primary">Discerning Few</span></h2>
-<div class="grid grid-cols-2 gap-8 mb-12">
+<h2 className="font-headline text-4xl md:text-5xl font-extrabold text-on-surface mb-8">Demanded by the <span className="text-primary">Discerning Few</span></h2>
+<div className="grid grid-cols-2 gap-8 mb-12">
 <div>
-<span class="block text-4xl font-headline font-extrabold text-primary-container">500+</span>
-<span class="font-label text-xs uppercase tracking-widest text-on-surface-variant">Satisfied Clients</span>
+<span className="block text-4xl font-headline font-extrabold text-primary-container">500+</span>
+<span className="font-label text-xs uppercase tracking-widest text-on-surface-variant">Satisfied Clients</span>
 </div>
 <div>
-<span class="block text-4xl font-headline font-extrabold text-primary-container">4.9/5</span>
-<span class="font-label text-xs uppercase tracking-widest text-on-surface-variant">Average Rating</span>
+<span className="block text-4xl font-headline font-extrabold text-primary-container">4.9/5</span>
+<span className="font-label text-xs uppercase tracking-widest text-on-surface-variant">Average Rating</span>
 </div>
 </div>
-<div class="space-y-8">
-<div class="bg-surface-container-low p-6 rounded-xl border border-outline-variant/5">
-<div class="flex gap-1 text-tertiary mb-4">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<div className="space-y-8">
+<div className="bg-surface-container-low p-6 rounded-xl border border-outline-variant/5">
+<div className="flex gap-1 text-tertiary mb-4">
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+<span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
 </div>
-<p class="font-body italic text-on-surface mb-4">"The atmosphere is incredible. It's not just a haircut, it's a 45-minute retreat from the world. Best fade I've ever had."</p>
-<span class="font-label text-xs font-bold uppercase tracking-widest text-primary">— Marcus V.</span>
+<p className="font-body italic text-on-surface mb-4">"The atmosphere is incredible. It's not just a haircut, it's a 45-minute retreat from the world. Best fade I've ever had."</p>
+<span className="font-label text-xs font-bold uppercase tracking-widest text-primary">— Marcus V.</span>
 </div>
 </div>
 </div>
-<div class="relative">
-<div class="aspect-square rounded-full bg-gradient-to-tr from-primary-container/20 to-transparent absolute -inset-10 blur-3xl"></div>
-<img class="relative z-10 rounded-xl grayscale shadow-2xl" data-alt="Interior of the barbershop showing premium leather chairs and architectural lighting in a dark luxury style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqvG39AiLGMYPcNbQlNWsGbf8LZIR7-E3KvhnWEPnW3VplYpZZ9xCVH7k54paMakK7ql1W4GdR8y7h3eJxtPoNfKJVkh1Ejm_l5RTH_eFHVCyJr25kfvX24NLKi6Zvyv0JKa-t19KcU88UBaNZzY8MQ9hm04mrAVNdZkqm4112t5NWCRqp2M_gEYYl25tXAOgtkvJ-ltIVYZTZSfxHnufRYolpdTaRdYNzZsM3AMUajojmypAR4KmLKcqTzS1IufXKL9Pl59sW418"/>
+<div className="relative">
+<div className="aspect-square rounded-full bg-gradient-to-tr from-primary-container/20 to-transparent absolute -inset-10 blur-3xl"></div>
+<img className="relative z-10 rounded-xl grayscale shadow-2xl" data-alt="Interior of the barbershop showing premium leather chairs and architectural lighting in a dark luxury style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqvG39AiLGMYPcNbQlNWsGbf8LZIR7-E3KvhnWEPnW3VplYpZZ9xCVH7k54paMakK7ql1W4GdR8y7h3eJxtPoNfKJVkh1Ejm_l5RTH_eFHVCyJr25kfvX24NLKi6Zvyv0JKa-t19KcU88UBaNZzY8MQ9hm04mrAVNdZkqm4112t5NWCRqp2M_gEYYl25tXAOgtkvJ-ltIVYZTZSfxHnufRYolpdTaRdYNzZsM3AMUajojmypAR4KmLKcqTzS1IufXKL9Pl59sW418"/>
 </div>
 </div>
 </div>
 </section>
 
-<section class="py-32 bg-surface-container-low">
-<div class="container mx-auto px-8">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-<div class="md:col-span-2 h-[400px] rounded-xl overflow-hidden grayscale border border-outline-variant/20">
-<img class="w-full h-full object-cover" data-alt="Modern dark-themed map interface showing the location of the barbershop in a city grid" data-location="New York City" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB9TwDtvq7a872RsLO3_GNT6wHbCU0uRCDmlIM40zngBk5RatqUNqoAkZK_1pzspNFQw4aEqeALzJWC-1ADUAOcsxlc_oAcjx1XELIb9PKyk-r2jyy7TI3HXCkqAkjP6ACsQgJILOcyXKF6HkuliLt0tJaBfXGX_AOheJRFt-K7AWOeM3FwIvlrBQJzDPGiQlxDYk3hSLL3YUk5HzcKh1eeLuQfNkpjsldEsiWU6QORPGLGxP4-TqJoCvgXb2la1kKLDKOkSm2llw"/>
+<section className="py-32 bg-surface-container-low" id="contact">
+<div className="container mx-auto px-8">
+<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div className="md:col-span-2 h-[400px] rounded-xl overflow-hidden grayscale border border-outline-variant/20">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31918.12374639145!2d34.7635712!3d0.29491199999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1775212689782!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-<div class="space-y-8 flex flex-col justify-center">
+<div className="space-y-8 flex flex-col justify-center">
 <div>
-<span class="font-label text-xs uppercase tracking-widest text-primary mb-2 block">Find Us</span>
-<h3 class="font-headline text-2xl font-bold mb-4 text-on-surface">The Downtown Studio</h3>
-<p class="text-on-surface-variant font-body">124 Lexinton Ave, New York, NY 10016</p>
+<span className="font-label text-xs uppercase tracking-widest text-primary mb-2 block">Find Us</span>
+<h3 className="font-headline text-2xl font-bold mb-4 text-on-surface">The Downtown Studio</h3>
+<p className="text-on-surface-variant font-body">124 Lexinton Ave, New York, NY 10016</p>
 </div>
 <div>
-<span class="font-label text-xs uppercase tracking-widest text-primary mb-2 block">Hours</span>
-<ul class="text-on-surface-variant space-y-1 font-body">
-<li class="flex justify-between"><span>Mon - Fri</span> <span>10:00 — 20:00</span></li>
-<li class="flex justify-between"><span>Sat</span> <span>09:00 — 18:00</span></li>
-<li class="flex justify-between"><span>Sun</span> <span class="text-tertiary">Closed</span></li>
+<span className="font-label text-xs uppercase tracking-widest text-primary mb-2 block">Hours</span>
+<ul className="text-on-surface-variant space-y-1 font-body">
+<li className="flex justify-between"><span>Mon - Fri</span> <span>10:00 — 20:00</span></li>
+<li className="flex justify-between"><span>Sat</span> <span>09:00 — 18:00</span></li>
+<li className="flex justify-between"><span>Sun</span> <span className="text-tertiary">Closed</span></li>
 </ul>
 </div>
-<div class="pt-4 space-y-4">
-<button class="w-full flex items-center justify-center gap-3 py-3 rounded-xl bg-surface-container-highest border border-outline-variant/10 text-on-surface hover:bg-surface-bright transition-all">
-<span class="material-symbols-outlined text-sm">call</span>
-<span class="font-manrope font-bold uppercase tracking-widest text-xs">Call Us</span>
+<div className="pt-4 space-y-4">
+<button className="w-full flex items-center justify-center gap-3 py-3 rounded-xl bg-surface-container-highest border border-outline-variant/10 text-on-surface hover:bg-surface-bright transition-all">
+<span className="material-symbols-outlined text-sm">call</span>
+<span className="font-manrope font-bold uppercase tracking-widest text-xs">Call Us</span>
 </button>
-<button class="w-full flex items-center justify-center gap-3 py-3 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] hover:bg-[#25D366]/20 transition-all">
-<span class="material-symbols-outlined text-sm">chat</span>
-<span class="font-manrope font-bold uppercase tracking-widest text-xs">WhatsApp</span>
+<button className="w-full flex items-center justify-center gap-3 py-3 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] hover:bg-[#25D366]/20 transition-all">
+<span className="material-symbols-outlined text-sm">chat</span>
+<span className="font-manrope font-bold uppercase tracking-widest text-xs">WhatsApp</span>
 </button>
 </div>
 </div>
