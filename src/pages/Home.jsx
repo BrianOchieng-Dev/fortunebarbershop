@@ -1,5 +1,5 @@
 
-//import WhatsApp from "../components/WhatsApp"
+import WhatsApp from "../components/WhatsApp"
 import Nav from  "../components/Navbar"
 import bgimg from '../assets/img2.jpg'
 import beard from '../assets/img8.jpg'
@@ -229,13 +229,14 @@ export default function Home (){
 <div className="container mx-auto px-8">
 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 <div className="md:col-span-2 h-[400px] rounded-xl overflow-hidden grayscale border border-outline-variant/20">
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31918.12374639145!2d34.7635712!3d0.29491199999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1775212689782!5m2!1sen!2ske" width="600" height="450" style={{ border: 0 }} allowFullScreen loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31918.12374639145!2d34.7635712!3d0.29491199999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1775212689782!5m2!1sen!2ske" width="600" height="450" style={{ border: 0 }} 
+allowFullScreen loading="lazy"></iframe>
 </div>
 <div className="space-y-8 flex flex-col justify-center">
 <div>
 <span className="font-label text-xs uppercase tracking-widest text-primary mb-2 block">Find Us</span>
-<h3 className="font-headline text-2xl font-bold mb-4 text-on-surface">The Downtown Studio</h3>
-<p className="text-on-surface-variant font-body">124 Lexinton Ave, New York, NY 10016</p>
+<h3 className="font-headline text-2xl font-bold mb-4 text-on-surface">Lurambi Street</h3>
+
 </div>
 <div>
 <span className="font-label text-xs uppercase tracking-widest text-primary mb-2 block">Hours</span>
@@ -252,7 +253,9 @@ export default function Home (){
 </button>
 <button className="w-full flex items-center justify-center gap-3 py-3 rounded-xl bg-[#25D366]/10 border border-[#25D366]/30 text-[#25D366] hover:bg-[#25D366]/20 transition-all">
 <span className="material-symbols-outlined text-sm">chat</span>
-<span className="font-manrope font-bold uppercase tracking-widest text-xs">WhatsApp</span>
+<span className="font-manrope font-bold uppercase tracking-widest text-xs">
+    WhatsApp</span>
+    <WhatsApp/>
 </button>
 </div>
 </div>
